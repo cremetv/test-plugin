@@ -1,0 +1,40 @@
+{
+    "name": "cremetv/test-plugin",
+    "description": "craft cms test plugin",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "test-plugin"
+    ],
+    "support": {
+        "docs": "https://github.com/cremetv/test-plugin/blob/master/README.md",
+        "issues": "https://github.com/cremetv/test-plugin/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcel Hauser",
+            "homepage": "https://ice-creme.de"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "cremetv\\testplugin\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "test-plugin",
+        "handle": "test-plugin",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/cremetv/test-plugin/master/CHANGELOG.md",
+        "class": "cremetv\\testplugin\\Testplugin"
+    }
+}
